@@ -1,7 +1,5 @@
 # Kotlin Advanced Programming Concepts
 
-## Part 1
-
 ### List of Advanced Kotlin Programming Concepts
 
 1. Coroutines
@@ -128,8 +126,6 @@ val stringBox = Box("Kotlin")
 println(intBox.value) // 1
 println(stringBox.value) // Kotlin
 ```
-
-## Part 2
 
 #### 7. Variance (In, Out)
 
@@ -398,8 +394,6 @@ val adapter = MyAdapter { view, position ->
 ```
 Aliases make the callback type clear and concise.
 
-## Part 3
-
 #### 11. Inline Classes
 
 **Inline Classes** allow you to create a wrapper around a value type without adding runtime overhead. They are used to provide type safety and additional meaning without the cost of wrapper objects.
@@ -552,8 +546,6 @@ fun dpToPx(context: Context, dp: Dp): Float {
 This function converts `Dp` inline class instances to pixels, ensuring proper measurement units are used.
 
 By using inline classes, you provide additional type safety and meaningful type representations without the overhead of additional object creation, making your code safer and clearer.
-
-## Part 4
 
 #### 12. Destructuring Declarations
 
@@ -805,8 +797,6 @@ class MainActivity : AppCompatActivity(), AnkoLogger {
 }
 ```
 Anko simplifies UI building in Android with a concise DSL.
-
-## Part 5
 
 #### 16. Operator Overloading
 
